@@ -3,7 +3,7 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const socket = io('https://your-vercel-backend-url.vercel.app'); // Replace with your Vercel backend URL
+const socket = io('https://querser-backend.vercel.app/'); // Replace with your Vercel backend URL
 let players = {};
 
 // Track the current player's position and state
